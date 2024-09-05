@@ -180,3 +180,30 @@ html, body {
     border: none;
     cursor: pointer;
 }
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body .card-title {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.card-body .btn {
+    align-self: flex-end;
+}
